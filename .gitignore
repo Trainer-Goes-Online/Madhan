@@ -1,0 +1,10 @@
+node_modules
+.next
+out
+.env*.local
+*.log
+next-env.d.ts
+
+
+# Private message templates (not part of the site)
+_messages/
