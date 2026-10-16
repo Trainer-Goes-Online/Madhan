@@ -1,0 +1,136 @@
+/* Styles of the GHL form widget (form F98dAMPX9fCM87fxpqS6), matched to the live popup. */
+.cform-BZRrN_WJZd .hl-app {
+  font-family: 'Inter', sans-serif;
+}
+.cform-BZRrN_WJZd .hl_form-builder--main {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0;
+}
+.cform-BZRrN_WJZd .ghl-form-wrap {
+  max-width: 650px;
+  width: 100%;
+  margin: 0 auto;
+}
+.cform-BZRrN_WJZd .form-builder--wrap {
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  max-width: 650px;
+  width: 100%;
+  padding: 30px 40px 31px;
+  box-shadow: rgba(87, 100, 126, 0.21) 0 4px 4px 0;
+  margin: 0;
+}
+.cform-BZRrN_WJZd .fields-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 31px 1px 0;
+}
+.cform-BZRrN_WJZd .form-field-wrapper {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 18px;
+}
+.cform-BZRrN_WJZd .form-field-email {
+  padding-top: 5px;
+}
+.cform-BZRrN_WJZd .field-label {
+  display: block;
+  margin: 0 0 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #2c3345;
+  text-align: left;
+}
+.cform-BZRrN_WJZd .form-control {
+  display: block;
+  width: 100%;
+  height: 36px;
+  padding: 8px 15px;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: #2c3345;
+  background: #fff;
+  border: 1px solid #acacac;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  appearance: none;
+}
+.cform-BZRrN_WJZd .form-control::placeholder {
+  color: #8c8c8c;
+  opacity: 1;
+}
+.cform-BZRrN_WJZd .form-control:focus {
+  border-color: #155eef;
+}
+.cform-BZRrN_WJZd .form-control.input-error {
+  border-color: #e93d3d;
+}
+.cform-BZRrN_WJZd .phone-input {
+  display: flex;
+  width: 100%;
+}
+.cform-BZRrN_WJZd .icon-field {
+  position: relative;
+}
+.cform-BZRrN_WJZd .icon-field .form-control {
+  padding-left: 36px;
+}
+.cform-BZRrN_WJZd .field-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+  transform: translateY(-50%);
+  color: #8c8c8c;
+  pointer-events: none;
+}
+.cform-BZRrN_WJZd .error {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #e93d3d;
+  text-align: left;
+}
+.cform-BZRrN_WJZd .form-btn-wrapper {
+  margin: 1px 0 16px;
+}
+.cform-BZRrN_WJZd .button-element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 45px;
+  margin-top: 15px;
+  padding: 9px 50px;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #e76102;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cform-BZRrN_WJZd .button-element:disabled {
+  cursor: default;
+}
+.cform-BZRrN_WJZd .btn-spinner {
+  width: 18px;
+  height: 18px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: ghl-form-spin 0.7s linear infinite;
+}
+@keyframes ghl-form-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
